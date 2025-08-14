@@ -4,67 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "e89656b6ca930ff4",
+        "id": "4b85d3b0e8585060",
         "type": "tabs",
         "children": [
           {
-            "id": "9fecc819187e7b2a",
+            "id": "16dfc553827859fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/Web/CSS.md",
+                "file": "Maths/Functions/00 Functions.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "CSS"
-            }
-          },
-          {
-            "id": "4a20bc9325689885",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "College/Web/CSS.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "CSS"
-            }
-          },
-          {
-            "id": "a7eb8870af86a63d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "College/I&E/Verdant Thumb - PPT.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Verdant Thumb - PPT"
-            }
-          },
-          {
-            "id": "ad82f0c149564c67",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "College/OS/Comparative Study.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Comparative Study"
+              "title": "00 Functions"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -131,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "College/OS/Comparative Study.md",
+                "file": "Maths/Functions/00 Functions.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -159,7 +116,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Comparative Study"
+              "title": "Graph of 00 Functions"
             }
           }
         ]
@@ -273,18 +230,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ad82f0c149564c67",
+  "active": "16dfc553827859fd",
   "lastOpenFiles": [
-    "College/I&E/Verdant Thumb - PPT.md",
+    "Miscellaneous.md",
+    "Excalidraw/Drawing 2025-04-14 16.50.34.excalidraw.md",
+    "College/Data Structures/Priority Queue.md",
+    "College/Data Structures/Algorithms.md",
+    "College/Web/CSS.md",
+    "College/Web/NoticeBoard.md",
     "College/OS/Comparative Study.md",
+    "College/I&E/Verdant Thumb - PPT.md",
     "College/OS",
     "Chemistry - Organic/IUPAC/06 Aromatic.md",
     "Chemistry - Organic/Aromatic Compounds/03 Phenol.md",
     "Chemistry - Organic/Reaction Mechanism/Elimination/00 Elimination Reactions.md",
     "Frieren Game/Witches.md",
-    "College/Web/CSS.md",
     "Frieren Game",
-    "College/Web/NoticeBoard.md",
     "Maths/Differentiation Applications/08 Rolle's Theorem and LMVT.md",
     "Maths/Basic Mathematics/Inequality/03 Quadratic Inequalities.md",
     "Maths/Basic Mathematics/00 Basic Mathematics.md",
@@ -296,7 +257,6 @@
     "Maths/Differentiation Applications/01 Tangents and Normals.md",
     "Maths/Differentiation Applications/02 Rate Change.md",
     "Maths/Differential Equations/01.2 Reducible to LDE.md",
-    "College/Data Structures/Algorithms.md",
     "College/Web",
     "00 Attachments/PPS/Computer_architecture_block_diagram.png",
     "00 Attachments/PPS/cache between CPU and MM.png",
@@ -305,12 +265,9 @@
     "00 Attachments/banner.png",
     "College/I&E",
     "College/I&E/Verdant Thumb - Buissness Canvas Model.md",
-    "College/Data Structures/Priority Queue.md",
     "College/Public Transportation.md",
     "College/PPS Theory.md",
     "College/Data Structures",
-    "College/Prog. for Problem Solving/C Programming Language.md",
-    "College/Of Men and Mice.md",
     "Excalidraw",
     "College/Essays",
     "00 Attachments/large_KIET_Group_of_Institutions_Ghaziabad_KIET_Ghaziabad_243fa07822_35ecc83705.png",
