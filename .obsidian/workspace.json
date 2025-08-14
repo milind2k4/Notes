@@ -1,0 +1,326 @@
+{
+  "main": {
+    "id": "10f07d79672c0153",
+    "type": "split",
+    "children": [
+      {
+        "id": "e89656b6ca930ff4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9fecc819187e7b2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "College/Web/CSS.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "CSS"
+            }
+          },
+          {
+            "id": "4a20bc9325689885",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "College/Web/CSS.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "CSS"
+            }
+          },
+          {
+            "id": "a7eb8870af86a63d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "College/I&E/Verdant Thumb - PPT.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Verdant Thumb - PPT"
+            }
+          },
+          {
+            "id": "ad82f0c149564c67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "College/OS/Comparative Study.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Comparative Study"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f5c28faf43299764",
+    "type": "split",
+    "children": [
+      {
+        "id": "3f6d271b0208550c",
+        "type": "tabs",
+        "dimension": 70.8029197080292,
+        "children": [
+          {
+            "id": "8eea413a047e7870",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "5f4faa41af9512c9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "anisole",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "15250a61a2756476",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ab480450d3988d5c",
+        "type": "tabs",
+        "dimension": 29.197080291970803,
+        "children": [
+          {
+            "id": "119b769bfc7a1867",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "College/OS/Comparative Study.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": true,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": false,
+                  "textFadeMultiplier": -1.6,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": false,
+                  "centerStrength": 0.492425921820735,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.35922302735410017,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Comparative Study"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 283.5
+  },
+  "right": {
+    "id": "e2cf99fe02dd4ea2",
+    "type": "split",
+    "children": [
+      {
+        "id": "b0a15eb3047be19c",
+        "type": "tabs",
+        "dimension": 56.23188405797102,
+        "children": [
+          {
+            "id": "65c58fc1c6c50b05",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "8dd26032c8080b4c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "College/Prog. for Problem Solving/C Programming Language.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of C Programming Language"
+            }
+          },
+          {
+            "id": "7709374e3b5ede51",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "College/Prog. for Problem Solving/C Programming Language.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from C Programming Language"
+            }
+          }
+        ]
+      },
+      {
+        "id": "449646ba97ad97f2",
+        "type": "tabs",
+        "dimension": 43.76811594202898,
+        "children": [
+          {
+            "id": "efe7afb32d7bc010",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b5a14a3e7555522a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "College/Prog. for Problem Solving/C Programming Language.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for C Programming Language"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 338,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "daily-notes:Open today's daily note": true,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
+      "switcher:Open quick switcher": true,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": true,
+      "omnisearch:Omnisearch": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "ad82f0c149564c67",
+  "lastOpenFiles": [
+    "College/I&E/Verdant Thumb - PPT.md",
+    "College/OS/Comparative Study.md",
+    "College/OS",
+    "Chemistry - Organic/IUPAC/06 Aromatic.md",
+    "Chemistry - Organic/Aromatic Compounds/03 Phenol.md",
+    "Chemistry - Organic/Reaction Mechanism/Elimination/00 Elimination Reactions.md",
+    "Frieren Game/Witches.md",
+    "College/Web/CSS.md",
+    "Frieren Game",
+    "College/Web/NoticeBoard.md",
+    "Maths/Differentiation Applications/08 Rolle's Theorem and LMVT.md",
+    "Maths/Basic Mathematics/Inequality/03 Quadratic Inequalities.md",
+    "Maths/Basic Mathematics/00 Basic Mathematics.md",
+    "Maths/Basic Mathematics/03 Base Changing Theorem.md",
+    "Physics/Waves/Wave on String/00 Waves.md",
+    "Maths/Basic Mathematics/Inequality/02 Modulus Inequalities.md",
+    "Maths/Basic Mathematics/Inequality/01 Algebraic Inequalities.md",
+    "Maths/Straight Line/00 Straight Line.md",
+    "Maths/Differentiation Applications/01 Tangents and Normals.md",
+    "Maths/Differentiation Applications/02 Rate Change.md",
+    "Maths/Differential Equations/01.2 Reducible to LDE.md",
+    "College/Data Structures/Algorithms.md",
+    "College/Web",
+    "00 Attachments/PPS/Computer_architecture_block_diagram.png",
+    "00 Attachments/PPS/cache between CPU and MM.png",
+    "00 Attachments/Neso Academy - Binary Division [VKemv9u40gc - 888x470 - 4m10s].png",
+    "00 Attachments/istockphoto-608637128-612x612.jpg",
+    "00 Attachments/banner.png",
+    "College/I&E",
+    "College/I&E/Verdant Thumb - Buissness Canvas Model.md",
+    "College/Data Structures/Priority Queue.md",
+    "College/Public Transportation.md",
+    "College/PPS Theory.md",
+    "College/Data Structures",
+    "College/Prog. for Problem Solving/C Programming Language.md",
+    "College/Of Men and Mice.md",
+    "Excalidraw",
+    "College/Essays",
+    "00 Attachments/large_KIET_Group_of_Institutions_Ghaziabad_KIET_Ghaziabad_243fa07822_35ecc83705.png",
+    "00 Attachments/istockphoto-608637128-1024x1024.jpg",
+    "00 Attachments/Part 3.pdf",
+    "00 Attachments/Part 4.pdf",
+    "00 Attachments/Pasted image 20241025124915.png",
+    "00 Attachments/Pasted image 20241025124931.png",
+    "00 Attachments/Screenshot_2024_10_14_22_31_40_41_c4b2fae5edd267b2847f1b32e9bc41c3.jpg",
+    "Indus Valley Civilisation.txt",
+    "Temp.canvas"
+  ]
+}
