@@ -1,0 +1,10 @@
+{
+  "accentColor": "#c8daea",
+  "cssTheme": "Prism",
+  "baseFontSize": 18,
+  "theme": "system",
+  "showViewHeader": true,
+  "nativeMenus": false,
+  "baseFontSizeAction": true,
+  "showRibbon": true
+}

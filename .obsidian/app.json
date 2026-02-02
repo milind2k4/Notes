@@ -1,0 +1,22 @@
+{
+  "livePreview": false,
+  "defaultViewMode": "source",
+  "showInlineTitle": false,
+  "spellcheck": true,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "00 Attachments",
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "propertiesInDocument": "visible",
+  "showLineNumber": false,
+  "showIndentGuide": true,
+  "readableLineLength": false,
+  "strictLineBreaks": false,
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 80
+  }
+}

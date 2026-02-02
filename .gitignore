@@ -1,0 +1,4 @@
+.sync
+.trash
+.tmp.driveupload
+*.sync-conflict*

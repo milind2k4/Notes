@@ -1,0 +1,222 @@
+{
+  "main": {
+    "id": "10f07d79672c0153",
+    "type": "split",
+    "children": [
+      {
+        "id": "f8b7035c551b1b34",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Maths/Trigonometry/01 Identities.md",
+            "mode": "source",
+            "source": true
+          }
+        },
+        "group": "7f203c186e79a05b"
+      },
+      {
+        "id": "ee7bb6d54230f1a4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Maths/Trigonometry/01 Identities.md",
+            "mode": "preview",
+            "source": true
+          }
+        },
+        "group": "7f203c186e79a05b"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f5c28faf43299764",
+    "type": "split",
+    "children": [
+      {
+        "id": "3f6d271b0208550c",
+        "type": "tabs",
+        "dimension": 74.57286432160804,
+        "children": [
+          {
+            "id": "8eea413a047e7870",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "5f4faa41af9512c9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "714690ebb8ddb7c0",
+        "type": "tabs",
+        "dimension": 25.427135678391956,
+        "children": [
+          {
+            "id": "119b769bfc7a1867",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Maths/Trigonometry/01 Identities.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": true,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.894761606022585,
+                  "repelStrength": 16.7910915934755,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.1846232622585839,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 262
+  },
+  "right": {
+    "id": "e2cf99fe02dd4ea2",
+    "type": "split",
+    "children": [
+      {
+        "id": "b0a15eb3047be19c",
+        "type": "tabs",
+        "dimension": 39.11290322580645,
+        "children": [
+          {
+            "id": "79a1f1e428a4cd00",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "65c58fc1c6c50b05",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "8dd26032c8080b4c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Maths/Trigonometry/01 Identities.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "450de6df7514f2ed",
+        "type": "tabs",
+        "dimension": 30.443548387096776,
+        "children": [
+          {
+            "id": "305c7d8feb8372c0",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "449646ba97ad97f2",
+        "type": "tabs",
+        "dimension": 30.443548387096776,
+        "children": [
+          {
+            "id": "efe7afb32d7bc010",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b5a14a3e7555522a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Maths/Trigonometry/01 Identities.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 338,
+    "collapsed": true
+  },
+  "active": "f8b7035c551b1b34",
+  "lastOpenFiles": [
+    "Maths/Trigonometry/00 Trigonometry.md",
+    "Physics/Kinematics/03 Motion Under Gravity.md",
+    "Physics/Kinematics/01 Equations of Motion.md",
+    "Maths/Limits/05 Standard Formula.md",
+    "Chemistry/Coordination Compounds/01.md",
+    "00 Attachments/Pasted image 20221009171326.png",
+    "00 Attachments/Pasted image 20221009171122.png",
+    "00 Attachments/Pasted image 20221009170833.png",
+    "Physics/Simple Harmonic Motion/00 Simple Harmonic Motion.md",
+    "Physics/Simple Harmonic Motion/01 Equation of SHM.md"
+  ]
+}
