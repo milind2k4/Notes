@@ -12,10 +12,11 @@ This does **not** mean they are *executing* at the same exact instant. It means 
 The "principle of concurrency" refers to the fundamental rules and challenges involved in managing multiple, interacting processes that overlap in time.
 
 The core principle is **interleaving and overlapping execution** to achieve:
+
 1.  **Increased CPU Utilization (Multiprogramming):**
-    - In a simple batch system, when a process `P1` performs a slow I/O operation (like reading from disk), the CPU sits idle.
-    - The principle of concurrency allows the OS to **pause** `P1` (while it waits for I/O) and **switch** the CPU to another process, `P2`.
-    - This keeps the CPU busy, maximizing throughput.
+	- In a simple batch system, when a process `P1` performs a slow I/O operation (like reading from disk), the CPU sits idle.
+	- The principle of concurrency allows the OS to **pause** `P1` (while it waits for I/O) and **switch** the CPU to another process, `P2`.
+	- This keeps the CPU busy, maximizing throughput.
 
 2.  **Increased Responsiveness (Multitasking):**
     - In an interactive system, a user might be running a web browser, a text editor, and a music player.

@@ -4,86 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "3ff93db8a0a7f4a2",
+        "id": "b05dc0f40a99b794",
         "type": "tabs",
         "children": [
           {
-            "id": "6178d622eabe55cc",
+            "id": "586a1d1885e34085",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/Computer Networks/Staging.md",
+                "file": "College/Computer Networks/CN Staging.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Staging"
+              "title": "CN Staging"
             },
-            "group": "af3171cddab91b7f"
+            "group": "214cafe0c7c376b5"
           },
           {
-            "id": "daccc95b59b0cef9",
+            "id": "c0fc627cde6a7d20",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/Computer Networks/01 Types of Networks.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "01 Types of Networks"
-            }
-          },
-          {
-            "id": "482df2cfa4cc7bf1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "College/Computer Networks/Staging.md",
+                "file": "College/Computer Networks/CN Staging.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Staging"
-            }
-          },
-          {
-            "id": "ffbf77fa59955e98",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "College/Data Analytics/00 Data Analytics.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "00 Data Analytics"
+              "title": "CN Staging"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
-        "id": "622afebb0f0a1782",
+        "id": "e54999ec84da1ac8",
         "type": "tabs",
         "children": [
           {
-            "id": "88d5356394034c10",
+            "id": "fff00052fd648deb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/Computer Networks/Staging.md",
+                "file": "College/Computer Networks/CN Staging.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Staging"
+              "title": "CN Staging"
             },
-            "group": "af3171cddab91b7f"
+            "group": "214cafe0c7c376b5"
           }
         ]
       }
@@ -118,7 +91,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "POJO",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -152,7 +125,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "College/Computer Networks/Staging.md",
+                "file": "College/Computer Networks/CN Staging.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -161,7 +134,7 @@
                   "localForelinks": true,
                   "localInterlinks": true,
                   "showTags": false,
-                  "showAttachments": false,
+                  "showAttachments": true,
                   "hideUnresolved": false,
                   "collapse-color-groups": true,
                   "colorGroups": [],
@@ -175,19 +148,19 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.3974346726671976,
+                  "scale": 0.619107940099956,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Staging"
+              "title": "Graph of CN Staging"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 232.00418853759766
+    "width": 244.5
   },
   "right": {
     "id": "e2cf99fe02dd4ea2",
@@ -204,8 +177,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "advanced-tables-toolbar"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
@@ -260,7 +233,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "College/Prog. for Problem Solving/C Programming Language.md",
+                "file": "College/Computer Networks/CN Staging.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -270,7 +243,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for C Programming Language"
+              "title": "Backlinks for CN Staging"
             }
           }
         ],
@@ -296,54 +269,54 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6178d622eabe55cc",
+  "active": "c0fc627cde6a7d20",
   "lastOpenFiles": [
-    "College/Computer Networks/01 Types of Networks.md",
-    "College/Computer Networks/Staging.md",
-    "College/ANN and ML/Staging.md",
+    "00 Attachments/Computer Networks/Pasted image 20260415155629.png",
+    "00 Attachments/Computer Networks/Pasted image 20260415154850.png",
+    "00 Attachments/Computer Networks/Pasted image 20260415143756.png",
+    "00 Attachments/Computer Networks/Pasted image 20260413164132.png",
+    "00 Attachments/Computer Networks/Pasted image 20260408100050.png",
+    "00 Attachments/Computer Networks/Pasted image 20260408095949.png",
+    "00 Attachments/Computer Networks/Pasted image 20260408095256.png",
+    "00 Attachments/Computer Networks/Pasted image 20260408095229.png",
+    "00 Attachments/Computer Networks/Pasted image 20260330165432.png",
+    "00 Attachments/Computer Networks/Pasted image 20260330165416.png",
+    "00 Attachments/Computer Networks/Pasted image 20260330165405.png",
+    "00 Attachments/DA",
+    "College/Computer Networks/CN Staging.md",
+    "College/Computer Networks/21 Transport Layer.md",
+    "College/New Subject.md",
+    "00 Attachments/Computer Networks",
+    "00 Attachments/OS",
+    "College/Computer Networks/18 Network Layer Protocols.md",
+    "College/Computer Networks/15 Network Layer.md",
+    "College/Computer Networks/20 Routing Protocols.md",
+    "College/Computer Networks/19 Routing.md",
+    "College/Computer Networks/17 IPv4 and IPv6.md",
+    "College/Computer Networks/16 Subnetting and NAT.md",
+    "College/Computer Networks/14 Ethernet.md",
+    "College/Computer Networks/13 Random Access Protocols.md",
+    "College/Computer Networks/12 Multiple Access Protocols.md",
+    "College/Computer Networks/10 Data Link Layer.md",
     "College/Computer Networks/00 Computer Networks.md",
-    "College/ANN and ML/01 Types of Machine Learning.md",
-    "College/Web Technology/Staging.md",
-    "College/Web Technology/01 Core Prog. Concepts.md",
-    "College/Web Technology/00 Web Technology.md",
-    "College/UHV/Staging.md",
-    "College/Data Structures/Priority Queue.md",
-    "College/Data Structures/Hashing.md",
-    "College/Data Structures/First and Last Index.md",
-    "College/Data Structures/Algorithms.md",
-    "College/Cloud/Staging.md",
-    "College/ANN and ML/00 Foundations of AI and ML.md",
-    "College/Formatting Guidelines.md",
-    "College/Prompt.md",
-    "College/Web/AOP.md",
-    "College/Web/CSS.md",
-    "College/Data Analytics/01 Types of Data.md",
+    "College/Data Analytics/DA Staging.md",
+    "College/ANN and ML/ANN and ML Staging.md",
+    "College/Data Analytics/05 Exploratory Data Analysis and Visualization.md",
+    "College/Data Analytics/06 Inferential Statistics.md",
+    "College/Computer Networks/06 TCP IP Model.md",
+    "College/Computer Networks/11 Error Control.md",
+    "College/Computer Networks/09 Transmission Impairments.md",
+    "College/Computer Networks/08.1 Public Switched Telephone Network.md",
+    "College/Computer Networks/08 Network Switching.md",
+    "College/Computer Networks/07 Network Devices.md",
+    "College/Computer Networks/02 Network Architectures.md",
+    "College/Java/Abstraction.pdf",
     "College/Computer Networks",
-    "College/Data Analytics/Staging.md",
-    "College/Data Analytics/00 Data Analytics.md",
-    "College/Data Analytics/02 Characteristics of Data.md",
-    "College/QP.md",
-    "College/Data Analytics/03 Data in AI.md",
     "College/UHV",
     "College/Data Analytics",
     "College/ANN and ML",
     "College/Cloud",
     "College/Web Technology",
-    "Chemistry - Inorg, Phy/Chemical Kinetics/01 Effect of Concentration.md",
-    "College/Java/Abstraction.pdf",
-    "College/Java/Abstraction.aux",
-    "College/Java/Abstraction.log",
-    "College/Java/Abstraction.tex",
-    "00 Attachments/Azure-SQL-Database.webp",
-    "00 Attachments/shadow-paging-scheme.webp",
-    "00 Attachments/Figure-a33-Shadow-paging-method-of-data-recovery-in-DBMS-Computer-Science-Junction.png",
-    "00 Attachments/shadowpaging.png",
-    "00 Attachments/Pasted image 20251119015949.png",
-    "00 Attachments/Pasted image 20251119012853.png",
-    "00 Attachments/Pasted image 20251119012802.png",
-    "00 Attachments/Pasted image 20251119005705.png",
-    "00 Attachments/Architecture-of-JDBC2.jpg",
-    "00 Attachments/images 1.png",
     "Temp.canvas"
   ]
 }

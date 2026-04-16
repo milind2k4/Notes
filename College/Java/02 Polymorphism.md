@@ -6,7 +6,7 @@ ___
 
 Polymorphism is an OOP mechanism where an object (or method) can take on many different forms. Its main advantage is code reusability and flexibility.
 
-> [!TIP] > Analogy: One Person, Many Roles
+> [!TIP] One Person, Many Roles
 > Consider a man named **John**.
 >
 > - At home, he behaves as a **Father**.

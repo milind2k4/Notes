@@ -15,34 +15,37 @@ i.e. the equation is $0\cdot x^{2} +0 \cdot x + 0 = 0$
 And the equation becomes an identity $0=0$.
 
 ## Quadratic Expression Factorized
-> $$\begin{split}
-> \text{Consider,}  \\
-> & ax^{2}+bx+c \\
-> \implies & a\left(x^{2}+\frac{b}{a}x + \frac{c}{a} \right) \\
-> 
-> \text{On completing } & \text{the square,} \\
-> 
-> \implies & a\left(\left( x + \frac{b}{2a} \right)^{2} + \frac{c}{a} - \frac{b^{2}}{4a^{2}} \right) \\
-> 
-> \implies & a\left(\left( x + \frac{b}{2a} \right)^{2} - \frac{b^{2}-4ac}{(2a)^{2}} \right) \\
-> 
-> \text{Taking } D = b^{2} & -4ac, \\
-> 
-> \implies & a\left(\left( x + \frac{b}{2a} \right)^{2} - \left(\frac{\sqrt{D}}{2a}\right)^{2} \right) \\
-> 
-> \implies & a\left(\left( x + \frac{b}{2a} - \frac{\sqrt{D}}{2a} \right)\left(x +\frac{b}{2a} + \frac{\sqrt{D}}{2a}\right) \right) \\
-> 
-> \implies & a\left(\left( x + \frac{b - \sqrt{D}}{2a} \right)\left(x +\frac{b + \sqrt{D}}{2a}\right) \right) \\
-> 
-> \implies & a\left(\left( x - \frac{-b + \sqrt{D}}{2a} \right)\left(x -\frac{-b - \sqrt{D}}{2a}\right) \right) \\
-> 
-> \text{Let, }\ \alpha & = \frac{-b - \sqrt{D}}{2a}\ \text{and}\; \beta = \frac{-b - \sqrt{D}}{2a}, \\
-> 
-> \implies & a(x-\alpha)(x-\beta)\\
-> &\\
-> \therefore ax^{2} + bx + c & \equiv a(x-\alpha)(x-\beta)
-> 
-> \end{split}$$
+
+$$
+\begin{split}
+\text{Consider,}  \\
+& ax^{2}+bx+c \\
+\implies & a\left(x^{2}+\frac{b}{a}x + \frac{c}{a} \right) \\
+
+\text{On completing } & \text{the square,} \\
+
+\implies & a\left(\left( x + \frac{b}{2a} \right)^{2} + \frac{c}{a} - \frac{b^{2}}{4a^{2}} \right) \\
+
+\implies & a\left(\left( x + \frac{b}{2a} \right)^{2} - \frac{b^{2}-4ac}{(2a)^{2}} \right) \\
+
+\text{Taking } D = b^{2} & -4ac, \\
+
+\implies & a\left(\left( x + \frac{b}{2a} \right)^{2} - \left(\frac{\sqrt{D}}{2a}\right)^{2} \right) \\
+
+\implies & a\left(\left( x + \frac{b}{2a} - \frac{\sqrt{D}}{2a} \right)\left(x +\frac{b}{2a} + \frac{\sqrt{D}}{2a}\right) \right) \\
+
+\implies & a\left(\left( x + \frac{b - \sqrt{D}}{2a} \right)\left(x +\frac{b + \sqrt{D}}{2a}\right) \right) \\
+
+\implies & a\left(\left( x - \frac{-b + \sqrt{D}}{2a} \right)\left(x -\frac{-b - \sqrt{D}}{2a}\right) \right) \\
+
+\text{Let, }\ \alpha & = \frac{-b - \sqrt{D}}{2a}\ \text{and}\; \beta = \frac{-b - \sqrt{D}}{2a}, \\
+
+\implies & a(x-\alpha)(x-\beta)\\
+&\\
+\therefore ax^{2} + bx + c & \equiv a(x-\alpha)(x-\beta)
+
+\end{split}
+$$
 
 - This is valid even if $a,b,c$ are not constant. i.e. it is an identity. 
 

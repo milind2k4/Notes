@@ -91,7 +91,7 @@ class Application {
 
 DI is the specific design pattern used to implement IoC. It removes the dependency creation responsibility from the class.
 
-> [!TIP] > Analogy: The Restaurant
+> [!TIP] The Restaurant
 >
 > - **Traditional (No IoC):** You are hungry. You go to the kitchen, find ingredients, cook the meal, and eat it. You control everything.
 > - **IoC (Inversion of Control):** You sit at a table. You don't go to the kitchen. You just _declare_ what you want.

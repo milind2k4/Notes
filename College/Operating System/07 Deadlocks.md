@@ -25,7 +25,7 @@ A deadlock can arise if and only if **four conditions** hold simultaneously in a
 1.  **Mutual Exclusion:** At least one resource must be non-shareable. Only one process can use the resource at a time.
 2.  **Hold and Wait:** A process must be holding at least one resource and be waiting to acquire additional resources that are currently held by other processes.
 3.  **No Preemption:** Resources cannot be forcibly taken away. A resource can only be released _voluntarily_ by the process holding it.
-4.  **Circular Wait:** A set of waiting processes ${P_{0}, P_{0}, ..., P_{n}}$ exists such that P0 is waiting for a resource held by $P_{1}$, $P_{1}$ is waiting for a resource held by $P_{2}$, ..., $P_{n-1}$ is waiting for a resource held by $P_{n}$, and $P_{n}$ is waiting for a resource held by $P_{0}$.
+4.  **Circular Wait:** A set of waiting processes ${P_{0}, P_{1}, ..., P_{n}}$ exists such that P0 is waiting for a resource held by $P_{1}$, $P_{1}$ is waiting for a resource held by $P_{2}$, ..., $P_{n-1}$ is waiting for a resource held by $P_{n}$, and $P_{n}$ is waiting for a resource held by $P_{0}$.
 
 #### Resource-Allocation Graph (RAG)
 

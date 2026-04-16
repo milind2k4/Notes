@@ -13,7 +13,7 @@ This is used to:
 - Maximize CPU utilization.
 - Improve application responsiveness (e.g., keeping a UI responsive while a background task runs).
 
-> [!TIP] > Analogy: Kitchen Staff
+> [!TIP] Kitchen Staff
 >
 > - **Single-Threaded:** One chef doing everything. He chops veggies, then cooks, then plates. If chopping takes 10 mins, the stove sits idle.
 > - **Multi-Threaded:** A full team.

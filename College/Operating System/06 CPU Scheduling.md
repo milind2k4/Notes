@@ -33,7 +33,7 @@ The dispatcher must:
 - Switch to user mode.
 - Jump to the proper location in the new process (its Program Counter).
 
-> [!TIP] > Analogy: Context Switch = Switching Books
+> [!TIP] Analogy: Context Switch = Switching Books
 > Imagine you are reading a book (Process A) and your friend interrupts you to ask for help with homework (Process B).
 >
 > 1.  You mark your page in the book with a **bookmark** (Save PCB of A).
@@ -60,7 +60,7 @@ To compare scheduling algorithms, we use several criteria:
 
 The process that requests the CPU first is allocated the CPU first. This is managed with a simple FIFO queue.
 
-> [!TIP] > **Analogy: Grocery Store Queue**
+> [!TIP] Analogy: Grocery Store Queue
 > Imagine a single cashier at a grocery store.
 >
 > - **FCFS**: People are served in the exact order they arrive.
@@ -99,7 +99,7 @@ The process that requests the CPU first is allocated the CPU first. This is mana
 
 The CPU is assigned to the process that has the smallest _next_ CPU burst.
 
-> [!TIP] > **Analogy: Express Checkout Lane**
+> [!TIP] Analogy: Express Checkout Lane
 > "10 items or less".
 >
 > - The cashier always picks the person with the fewest items in their basket.

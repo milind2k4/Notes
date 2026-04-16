@@ -16,45 +16,45 @@ where $a_{i} \in R\ , i = 0,1,2, ....... n$
 
 $$f(x) \equiv a_{n}(x - \alpha_{1})(x - \alpha_{2})(x - \alpha_{3}).......(x - \alpha_{n})$$
 
-> This can be multiplied and written as:
-> $$\begin{split}
-> f(x) & = x^{n-1} \sum \alpha_{i} \\
-> &\ + x^{n-2} \sum \alpha_{i}\alpha_{j} \\
-> &\ + x^{n-3} \sum \alpha_{i}\alpha_{j}\alpha_{k} \\
-> &\ \ \ . \\
-> &\ \ \ . \\
-> &\ \ \ . \\
-> &\ (-1)^{n}\ x^{0} \alpha_{i}\alpha_{j}\alpha_{k}.......\alpha_{n}
-> \end{split}$$
+This can be multiplied and written as:
+$$\begin{split}
+f(x) & = x^{n-1} \sum \alpha_{i} \\
+&\ + x^{n-2} \sum \alpha_{i}\alpha_{j} \\
+&\ + x^{n-3} \sum \alpha_{i}\alpha_{j}\alpha_{k} \\
+&\ \ \ . \\
+&\ \ \ . \\
+&\ \ \ . \\
+&\ (-1)^{n}\ x^{0} \alpha_{i}\alpha_{j}\alpha_{k}.......\alpha_{n}
+\end{split}$$
 
 This is an identity hence coefficients can be compared 
-> $$\begin{split}
-> a_{n} & = a_{n} \\
-> a_{n-1} & = a_{n} \sum \alpha_{i} \\
-> a_{n-2} & = a_{n} \sum \alpha_{i}\alpha_{j}\ (i < j) \\
-> a_{n-3} & = a_{n} \sum \alpha_{i}\alpha_{j}\alpha_{k} 
-\ (i < j< k)\\
-> &\; \; . \\
-> &\; \; . \\
-> a_{o} & = a_{n}\ \alpha_{i}\alpha_{j}\alpha_{k}.......\alpha_{n}
-> \end{split}$$
+$$\begin{split}
+a_{n} & = a_{n} \\
+a_{n-1} & = a_{n} \sum \alpha_{i} \\
+a_{n-2} & = a_{n} \sum \alpha_{i}\alpha_{j}\ (i < j) \\
+a_{n-3} & = a_{n} \sum \alpha_{i}\alpha_{j}\alpha_{k} 
+> \ (i < j< k)\\
+&\; \; . \\
+&\; \; . \\
+a_{o} & = a_{n}\ \alpha_{i}\alpha_{j}\alpha_{k}.......\alpha_{n}
+\end{split}$$
 	
 Therefore, 
-> $$\begin{split}
-> a_{n} & = a_{n} \\
-> -\frac{a_{n-1}}{a_{n}} & = \sum \alpha_{i} \\
+$$\begin{split}
+a_{n} & = a_{n} \\
+-\frac{a_{n-1}}{a_{n}} & = \sum \alpha_{i} \\
 & = \text{ Sum of roots taken 1 at a time} \\
-> \frac{a_{n-2}}{a_{n}} & = \sum \alpha_{i}\alpha_{j} \\
+\frac{a_{n-2}}{a_{n}} & = \sum \alpha_{i}\alpha_{j} \\
 & = \text{ Sum of roots taken 2 at a time} \\
-> -\frac{a_{n-3}}{a_{n}} & = \sum \alpha_{i}\alpha_{j}\alpha_{k} \\
+-\frac{a_{n-3}}{a_{n}} & = \sum \alpha_{i}\alpha_{j}\alpha_{k} \\
 & = \text{ Sum of roots taken 3 at a time} \\
-> &\; \; . \\
-> &\; \; . \\
-> &\; \; . \\
-> (-1)^{n}\frac{a_{o}}{a_{n}} & = \alpha_{i}\alpha_{j}\alpha_{k}.......\alpha_{n} \\
+&\; \; . \\
+&\; \; . \\
+&\; \; . \\
+(-1)^{n}\frac{a_{o}}{a_{n}} & = \alpha_{i}\alpha_{j}\alpha_{k}.......\alpha_{n} \\
 & = \text{ Sum of roots taken n at a time} \\
 & = \text{ Product of the roots} \\
-> \end{split}$$
+\end{split}$$
 
 #### For a cubic
 $$ax^{3} + bx^{2} + cx + d = 0$$

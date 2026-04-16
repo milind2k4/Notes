@@ -8,7 +8,7 @@ Exception handling is a mechanism through which we catch and manage errors or un
 
 Exceptions are run-time errors.
 
-> [!TIP] > Analogy: The Safety Net
+> [!TIP] The Safety Net
 >
 > - **Program Execution:** Walking on a tightrope.
 > - **Exception:** Slipping and falling.

@@ -9,6 +9,19 @@ ___
 - **Deep Learning (DL):** A specialized subset of ML based on artificial neural networks (ANN).
 - **Artificial Neural Networks (ANN):** Computational models inspired by the human brain, consisting of interconnected nodes (neurons) that process information in layers.
 
+```mermaid
+timeline
+    title Evolution of AI
+    1950 : Artificial Intelligence (AI)
+         : Alan Turing & Logic
+    1980 : Machine Learning (ML)
+         : Statistical Methods
+    2010 : Deep Learning (DL)
+         : Big Data & GPUs
+    2023 : Generative AI
+         : LLMs & Transformers
+```
+
 > [!NOTE] Hierarchy Relationship
 > **AI** includes **ML**, which includes **ANN**, which defines **DL**.
 > All Deep Learning uses ANNs, but ANNs can be shallow (not "Deep").

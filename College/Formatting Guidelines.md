@@ -36,3 +36,27 @@ No Horizontal Rules in a note.
 No `- **Definition:** <definition here>`  lines. Directly write the definition.
 
 Analogies should be in `> [!TIP]` blocks always. 
+
+
+You can use all the features of mermaid.js. Such as:
+- Flowcharts 
+- Sequence 
+- Class Diagrams 
+- State Diagrams 
+- gantt charts
+- pie charts
+- Quadrant charts
+- Timeline 
+- Git graph 
+- Mindmaps 
+- Snakey-beta
+
+
+
+
+
+
+
+
+
+

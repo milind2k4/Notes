@@ -30,7 +30,7 @@ graph LR
     Physical --> Memory[Memory]
 ```
 
-> [!TIP] > Analogy:
+> [!TIP] Analogy
 >
 > Think of a Hotel.
 >
@@ -60,7 +60,7 @@ When a process is to be executed, its **Pages** are loaded into any available **
 - **Page Number (p):** Used as an index into the page table.
 - **Page Offset (d):** The specific location inside that page.
 
-> [!TIP] > Analogy:
+> [!TIP] Analogy
 >
 > A Book.
 >

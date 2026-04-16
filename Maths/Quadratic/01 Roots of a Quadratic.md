@@ -50,7 +50,7 @@ Difference means subtracting the bigger number from the smaller.
 It's symbol is '$\sim$'
 
 Difference of Roots = $\alpha \sim \beta = |\alpha - \beta|$ 
-> $$\begin{split}
+$$\begin{split}
 \implies & \left| \left( \frac{-b+\sqrt{D}}{2a} \right) - \left(\frac{-b-\sqrt{D}}{2a} \right) \right|\\
 \implies & \left| \left( \frac{2\sqrt{D}}{2a} \right) \right| \\
 \implies & \left| \frac{\sqrt{D}}{a} \right|

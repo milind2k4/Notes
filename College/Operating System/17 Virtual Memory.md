@@ -73,7 +73,7 @@ To reduce thrashing we reduce degree of multiprogramming.
 3. The OS brings that specific page in.
 4. The process resumes, hits the next missing page, triggers another fault, and repeats.
 
-- **Goal:** Maximum memory saving.10 No memory is wasted on pages that _might_ be used; only pages that _are_ used exist in RAM.
+- **Goal:** Maximum memory saving. No memory is wasted on pages that _might_ be used; only pages that _are_ used exist in RAM.
 
 
 #### Differences

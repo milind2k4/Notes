@@ -48,8 +48,7 @@ graph TD
     style JVM fill:#dfd,stroke:#333,stroke-width:2px
 ```
 
-> [!TIP] > Analogy: The Kitchen
->
+> [!TIP] Analogy: The Kitchen
 > - **JDK (The Whole Kit):** The entire kitchen setup. It has the stove, ingredients, **AND** the recipe books/tools to _create_ new dishes.
 > - **JRE (Runtime Env):** A kitchen that is only for _serving_ food. It has the stove and ingredients to cook (run) the meal, but no tools to write new recipes.
 > - **JVM (The Chef):** The person who actually cooks. They read the recipe (Bytecode) and use the stove (Hardware) to make the food (Machine Code).

@@ -11,7 +11,7 @@ We use `extends` keyword to inherit properties from one class to another.
 The class which is inherited is called Parent or Super class.
 The class which inherits is called Child, Derived or Sub Class.
 
-> [!TIP] > Analogy: DNA & Genetics
+> [!TIP] DNA & Genetics
 >
 > - **Parent Class:** Your Father. He has blue eyes (Properties) and walks fast (Behavior).
 > - **Child Class:** You. You _automatically_ get the blue eyes and fast walk (Inheritance).
