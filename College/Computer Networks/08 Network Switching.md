@@ -4,6 +4,10 @@ ___
 
 **Switching** is the mechanism used to move information between different networks or segments. It involves creating temporary connections between nodes to facilitate data transfer across the network.
 
+> [!TIP] Analogy: AE2 Cables vs ME Networks
+> - **Circuit Switching** is like running a dedicated, physical **Dense Cable** directly from point A to point B for one specific high-priority machine. No other devices can share that path, even if it's currently idle.
+> - **Packet Switching** is like the **ME Network** itself. You throw items into an ME Interface, and the system dynamically routes them through any available cables to reach the destination Storage Bus. Multiple devices share the same cable infrastructure efficiently.
+
 ## Circuit Switching
 A dedicated communication path is established between two stations before data transmission begins.
 

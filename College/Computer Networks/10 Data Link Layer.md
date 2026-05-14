@@ -149,3 +149,30 @@ sequenceDiagram
 
 ![[Pasted image 20260303143101.png]]
 
+### Piggybacking
+In two-way (full-duplex) communication, sending a dedicated acknowledgement packet for every single frame received is a massive waste of bandwidth, as the naked ACK packet itself requires a full header and processing power.
+
+**Piggybacking** is a technique used to improve efficiency. When the receiver successfully gets a data frame, it does not send an ACK immediately. Instead, it waits until its own Network Layer has a new data packet ready to send back to the original source. The receiver then "piggybacks" or attaches the ACK onto this outgoing data frame.
+
+```mermaid
+sequenceDiagram
+    participant Host A
+    participant Host B
+    
+    Note over Host A,Host B: Scenario 1: Without Piggybacking (Inefficient)
+    Host A->>Host B: Data Frame 1
+    Host B-->>Host A: Dedicated ACK 1
+    Host B->>Host A: Data Frame 1
+    Host A-->>Host B: Dedicated ACK 1
+    
+    Note over Host A,Host B: Scenario 2: With Piggybacking (Efficient)
+    Host A->>Host B: Data Frame 1
+    Note right of Host B: Host B waits to send its own data...
+    Host B->>Host A: Data Frame 1 + ACK 1 (Piggybacked)
+    Note left of Host A: Host A processes both Data 1 and ACK 1
+    Host A->>Host B: Data Frame 2 + ACK 1 (Piggybacked)
+```
+
+- **Advantages:** Drastically reduces network traffic by combining data and acknowledgements into a single frame.
+- **Disadvantages:** If the receiver doesn't have any actual data to send back, the ACK is artificially delayed. If this delay exceeds the sender's timer, it triggers a completely unnecessary retransmission. To prevent this, most protocols implement a small maximum wait timer before they are forced to send a naked ACK.
+

@@ -144,13 +144,47 @@ flowchart TD
 > $$T_p = \frac{\text{Distance}}{\text{Speed}}$$
 > the condition resolves to:
 > $$ \frac{\text{Packet Length}}{\text{Bandwidth}} \ge 2 \times \frac{\text{Distance}}{\text{Speed}} $$
-> $$ \text{Min Packet Length} = 2 \times \text{Bandwidth} \times \frac{\text{Distance}}{\text{Speed}} $$
+> $$ \text{Min Packet Length} = 2 \times \text{Bandwidth} \times T_p $$
+
+> [!EXAMPLE] CSMA/CD Numerical
+> **Given:**
+> - **Distance ($d$):** 2.5 km (2500 m)
+> - **Bandwidth ($B$):** 10 Mbps ($10^7$ bps)
+> - **Propagation Speed ($v$):** $2 \times 10^8$ m/s
+> 
+> **Goal:** Find the Minimum Packet Length required to detect collisions.
+> 
+> 1. **Calculate $T_p$:** 
+>    $$T_p = d / v = 2500 / (2 \times 10^8) = 12.5 \mu\text{s}$$
+> 2. **Apply Condition:** 
+>    $$T_t \ge 2 \times T_p = 25 \mu\text{s}$$
+> 3. **Calculate Length:** 
+>    $$\text{Length} = T_t \times B = (25 \times 10^{-6}) \times (10^7)$$
+> 4. **Result:** 
+>    $$\text{Length} = 250 \text{ bits}$$
 
 ### CSMA/CA (Collision Avoidance)
 Primarily used in **Wireless Media** (e.g., Wi-Fi / IEEE 802.11).
 *   In wireless networks, signal attenuation makes it nearly impossible to reliably detect collisions while transmitting. Instead, the protocol focuses on *avoiding* them entirely.
 
 #### Working Principle
+
+CSMA/CA uses specific wait periods (IFS, Inter Frame Space) and acknowledgments to avoid collisions.
+
+> [!NOTE] Backoff Time Formula
+> When the channel is busy, the station waits for a random number of time slots:
+> $$ \text{Backoff Time} = \text{Random Number} \times \text{Slot Time} $$
+> - The random number is chosen from a **Contention Window (CW)** range $[0, 2^k - 1]$, where $k$ is the number of retransmission attempts.
+
+> [!EXAMPLE] CSMA/CA Process Walkthrough
+> 1. **Initial Sense:** Station senses the medium is idle.
+> 2. **DIFS:** It waits for **Distributed Inter-Frame Space (DIFS)** (e.g., 50 $\mu s$).
+> 3. **Contention Window:** If still idle, it picks a random backoff (e.g., 3 slots of 20 $\mu s$ each = 60 $\mu s$).
+> 4. **Transmit:** Sends the Data frame.
+> 5. **SIFS:** Receiver waits for a shorter **Short Inter-Frame Space (SIFS)** (e.g., 10 $\mu s$).
+> 6. **ACK:** Receiver sends ACK. If the sender receives it, the transmission is successful.
+
+
 ```mermaid
 flowchart TD
     Start[New Frame to Send] --> Sense{Is Channel Idle?}

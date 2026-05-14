@@ -6,6 +6,17 @@ ___
 
 It is a crucial part of the Data Preparation phase in the [[03 Data Analytics Lifecycle]].
 
+```mermaid
+graph TD
+    Raw[(Raw Messy Data)] --> Clean[1\. Clean & Filter]
+    Clean --> Impute[2\. Impute Missing]
+    Impute --> Transform[3\. Transform & Encode]
+    Transform --> Normalize[4\. Scale & Normalize]
+    Normalize --> ML[(ML Ready Data)]
+
+    classDef default fill:#2b2b2b,stroke:#66bb6a,stroke-width:2px,color:#fff;
+```
+
 ## Handling Missing Data
 Modern algorithms cannot handle missing (`NaN` or `None`) values mathematically. We must account for them before analysis.
 

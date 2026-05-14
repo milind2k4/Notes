@@ -172,6 +172,18 @@ A *mode* is essentially a *path* the light can take inside the optical fiber.
 - **SC (Subscriber Connector):** Square-shaped, push-pull mechanism. Used in Cable TV/Datacoms.
 - **ST (Straight Tip):** Round, bayonet mount (twist-lock). Older style, similar to BNC.
 
+### Guided Media Comparison Summary
+
+| Feature          | Twisted Pair      | Coaxial Cable          | Fiber Optic                            |
+|:---------------- |:----------------- |:---------------------- |:-------------------------------------- |
+| **Cost**         | Lowest            | Moderate               | Highest                                |
+| **Bandwidth**    | 10 Mbps - 10 Gbps | Up to 100 Mbps         | 1 Gbps - 100+ Gbps                     |
+| **Distance**     | 100m (Short)      | 185m - 500m (Moderate) | 2km - 100km (Very Long)                |
+| **Attenuation**  | High              | Moderate               | Very Low                               |
+| **EMI Immunity** | Low (Susceptible) | Moderate (Shielded)    | High (Immune)                          |
+| **Security**     | Low (Easy to tap) | Moderate               | High (Hard to tap)                     |
+| **Installation** | Very Easy         | Moderate               | Difficult (Requires specialized tools) |
+
 ## Wireless Media (Unguided)
 Transmits electromagnetic waves without a physical conductor. Signals travel through the air or vacuum.
 

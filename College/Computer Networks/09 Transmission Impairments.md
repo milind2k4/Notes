@@ -14,6 +14,11 @@ Attenuation means a **loss of energy**. When a signal travels through a medium, 
 
 To compensate for this loss, amplifiers are used to boost the signal.
 
+> [!TIP] Analogy: AE2 Power Drop-off
+> In AE2, as you run ME Cables further away from your Controller or Energy Cells, the "passive" power drain of the system increases. If you go far enough without adding more power or using a **Quantum Network Bridge**, the signal simply dies out. 
+> 
+> This is exactly what **Attenuation** is: the natural energy loss over distance that eventually makes the signal unreadable unless you "boost" it with an amplifier or repeater.
+
 ### Measuring Attenuation
 Attenuation is measured in **Decibels (dB)**, which measures the relative strengths of two signals or a single signal at two different points.
 

@@ -13,6 +13,14 @@ ___
 
 ## Routing Strategies
 
+| Feature            | Static Routing              | Dynamic Routing                        |
+| ------------------ | --------------------------- | -------------------------------------- |
+| **Configuration**  | Manual by Admin             | Automatic via Protocols                |
+| **Adaptability**   | None (Fixed)                | High (Self-healing)                    |
+| **Complexity**     | Simple for small networks   | High for large networks                |
+| **Resource Usage** | Zero CPU/Bandwidth overhead | Consumes CPU and Bandwidth for updates |
+| **Security**       | High (No ads sent)          | Lower (Requires authentication)        |
+
 ### Static Routing (Non-Adaptive)
 In Static Routing, the routing tables are manually provided and configured by a network administrator. The table contains predefined, hard-coded routes.
 - **Pros:** Low CPU overhead on routers, highly secure (no routing updates sent across the network).
@@ -218,3 +226,41 @@ Unlike DVR (where routers only know their neighbors' limited perspectives), **Li
 2. **Link State Packet Creation:** The router packages its identity, its neighbors, and its direct link costs into a specialized data block called a Link State Packet (LSP).
 3. **Reliable Flooding:** The router broadcasts its LSP to all immediate neighbors. Those neighbors immediately copy and forward it to *their* neighbors, creating a tidal wave that rapidly "floods" the entire autonomous system. It is strictly "reliable" because routers use sequence numbers to instantly drop old or duplicate LSPs, preventing infinitely looping storms.
 4. **Root Calculation (Dijkstra's Algorithm):** Once the flooding settles, every single router possesses an identical, complete map of the entire network. Every router then independently runs **Dijkstra's Shortest Path Algorithm**—treating itself as the "root" node of the graph—to calculate the absolute cheapest path to every other node in the system.
+
+### Numerical Example: Dijkstra's Algorithm
+
+To understand how a Link State router calculates its shortest path tree, let's walk through **Dijkstra's Algorithm** for the following network topology.
+
+```mermaid
+graph LR
+    A((A)) -- 2 --- B((B))
+    A -- 5 --- C((C))
+    B -- 2 --- C((C))
+    B -- 7 --- D((D))
+    C -- 1 --- D((D))
+    C -- 8 --- E((E))
+    D -- 3 --- E((E))
+    
+    style A fill:#81d4fa,stroke:#333
+```
+
+**Goal:** Find the shortest path from **Source Node A** to all other nodes.
+
+- **Set S:** Nodes whose shortest path from A is already known.
+- **$D(v)$:** Current shortest distance from A to node $v$.
+
+#### Step-by-Step Iterations
+
+| Iteration | Set S | $D(B)$ | $D(C)$ | $D(D)$ | $D(E)$ | Explanation |
+| :--- | :--- | :--: | :--: | :--: | :--: | :--- |
+| **0** | {A} | 2 | 5 | $\infty$ | $\infty$ | A is the root. Neighbors B (2) and C (5) are identified. |
+| **1** | {A, B} | **2** | **4** | 9 | $\infty$ | B is closest (2). Path A→B→C (2+2=4) is better than direct A→C (5). $D(D)$ updated via B (2+7=9). |
+| **2** | {A, B, C} | 2 | **4** | **5** | 12 | C is closest (4). Path A→B→C→D (4+1=5) is better than A→B→D (9). $D(E)$ updated via C (4+8=12). |
+| **3** | {A, B, C, D} | 2 | 4 | **5** | **8** | D is closest (5). Path A→B→C→D→E (5+3=8) is better than A→B→C→E (12). |
+| **4** | {A, B, C, D, E} | 2 | 4 | 5 | **8** | All nodes reached. |
+
+#### Final Shortest Paths from A:
+- **To B:** A → B (Cost: 2)
+- **To C:** A → B → C (Cost: 4)
+- **To D:** A → B → C → D (Cost: 5)
+- **To E:** A → B → C → D → E (Cost: 8)

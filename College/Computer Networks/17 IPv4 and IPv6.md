@@ -20,6 +20,24 @@ The IPv4 datagram header has a minimum length of **20 bytes** and a maximum leng
 
 ![[Pasted image 20260413164132.png]]
 
+```mermaid
+%%{init: { 'themeVariables': { 'packet': { 'byteHeight': 50, 'paddingY': 40 } } } }%%
+packet-beta
+0-3: "VER"
+4-7: "HLEN"
+8-15: "TOS"
+16-31: "Total Length"
+32-47: "Identification"
+48-50: "Flags"
+51-63: "Fragment Offset"
+64-71: "TTL"
+72-79: "Protocol"
+80-95: "Header Checksum"
+96-127: "Source IP Address"
+128-159: "Destination IP Address"
+160-191: "Options & Padding"
+```
+
 - **VER (4 bits):** Version of the IP protocol (always `4` for IPv4).
 - **HLEN (IHL) (4 bits):** Header Length. It specifies the length of the header in 32-bit words. Because it must be a multiple of 4, the minimum value is 5 ($5 \times 4 = 20$ bytes) and the max is 15 ($15 \times 4 = 60$ bytes).
 - **Service (TOS) (8 bits):** Indicates the type of service requested during transfer (e.g., Low Delay, High Throughput, Reliability).
@@ -70,6 +88,18 @@ Because writing 32 hexadecimal characters is tedious, there are strict rules for
 Unlike the variable-length IPv4 header, the IPv6 base header has a fixed length of exactly **40 bytes**. This stream-lined design allows routers to process packets significantly faster.
 
 ![[Pasted image 20260415143756.png]]
+
+```mermaid
+packet-beta
+0-3: "VER"
+4-11: "PRI"
+12-31: "Flow Label"
+32-47: "Payload Length"
+48-55: "Next Header"
+56-63: "Hop Limit"
+64-191: "Source Address (128 bits)"
+192-319: "Destination Address (128 bits)"
+```
 
 - **VER (4 bits):** Version (always `6`).
 - **PRI (4 bits):** Priority/Traffic Class of the datagram.

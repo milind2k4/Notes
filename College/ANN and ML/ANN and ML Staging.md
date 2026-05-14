@@ -179,3 +179,71 @@ Based on the behaviour of ants.
 
 ##### Simulated Annealing 
 Based on cooling down of metal 
+
+## Ensemble Learning 
+
+Ensemble means that we are using more than one model to generate the prediction and combining all of them to get a better result that one model individually. 
+
+It is simply- asking a group of people for advice, i.e. knwoledge of the crowd. 
+
+Here, mistakes of one model can be reduced by the others. 
+
+#### Bagging
+Models are trained individually on random subsets of the training data. 
+
+Their results are then combined, usually, by averaging (for regression) or voting (for classification). This helps reduce variance and prevents overfitting. 
+
+#### Boosting 
+Models are trained one after another. Each successive model focuses on fixing the errors made by other models. The prediction of one model is treated as input for the next one. The final prediction is a weighted combination of all models which helps reduce bias (underfitting) and improve accuracy.
+
+#### Stacking 
+
+We train multiple models which are all different types are trained and their predictions are used as inputs for a meta model which then uses these predictions to learn how to best combine these models. The meta model gives better performance than any of the individual models. 
+
+## Bagging 
+Bagging classifier can be used for both regression and classification. 
+
+1. Bootstrap Sampling: The dataset is divided into multiple subsets by sampling with replacement, creating diverse training data. 
+2. Base model training: A separate model is trained on each subset. 
+3. Prediction Aggregation: Predictions from all are combined using majority voting (classification) or averaging (regression).
+4. OOB Evaluation: Samples not in any of the subsets are then used for evaluation. 
+
+BaggingClassifier
+
+
+## Boosting 
+
+Multiple weak models are trained one after another and each new model focues on correcting the errors of the previous one to build a strong model. 
+
+1. Initialize the Weights: Start with equal weights fro each model 
+2. Train weak learner 
+3. Sequential Learning 
+4. Weight Adjustment 
+
+AdaBoostClassifier 
+
+## Random Forest 
+It is a ml algo which uses many decision trees to make better predictions. Each tree looks at a different random parts of the data and their results are combined by voting for classification or averaging for regression. 
+
+- Create many decision trees 
+- Pick random features 
+- Each tree makes a prediction 
+- Combine the predictions 
+
+The use of random forest makes it easy to avoid overfitting. 
+
+It works well with datasets which have missing data, big complex data, shows feature importance. It can also be used for classification and regression. 
+
+Adv:
+1. Provides accurate predictions 
+2. Handle missing data 
+3. No need for normalization or standardization 
+4. Reduce overfitting 
+
+Disadv:
+1. It can be computationally expensive.
+2. Time taking 
+3. Harder to interpret a model compared to simple model like decision tree. 
+
+## AutoML 
+It is a tool which automates the 

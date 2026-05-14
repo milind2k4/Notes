@@ -65,6 +65,31 @@ where $n$ is the number of host bits (zeros in the mask).
 ### VLSM (Variable Length Subnet Masking)
 In standard subnetting, every subnet uses the same mask, leading to wasted addresses. **VLSM** allows each subnet to have a *different* mask, tailored to the number of hosts it actually needs. This enables far more efficient utilization of the address space.
 
+#### Numerical Example: VLSM Calculation
+**Scenario:** You are given the network block `192.168.1.0/24`. You need to create subnets for:
+1. **Sales Department:** 100 hosts
+2. **Technical Department:** 50 hosts
+3. **Accounts Department:** 20 hosts
+4. **Point-to-Point Link:** 2 hosts (Router-to-Router)
+
+**Strategy:** Always allocate the largest subnets first.
+
+$$\symup{New Mask} = 32 - n$$
+
+| Subnet       | Hosts Needed | Addresses Needed ($2^n$) | New Mask | Subnet Range                      |
+|:------------ |:------------ |:------------------------ |:-------- |:--------------------------------- |
+| **Sales**    | 100          | $2^7 = 128$              | `/25`    | `192.168.1.0` - `192.168.1.127`   |
+| **Tech**     | 50           | $2^6 = 64$               | `/26`    | `192.168.1.128` - `192.168.1.191` |
+| **Accounts** | 20           | $2^5 = 32$               | `/27`    | `192.168.1.192` - `192.168.1.223` |
+| **P2P Link** | 2            | $2^2 = 4$                | `/30`    | `192.168.1.224` - `192.168.1.227` |
+
+**Breakdown of Sales Subnet (/25):**
+- **Network ID:** `192.168.1.0`
+- **First Usable:** `192.168.1.1`
+- **Last Usable:** `192.168.1.126`
+- **Broadcast:** `192.168.1.127`
+- **Subnet Mask:** `255.255.255.128`
+
 ## NAT (Network Address Translation)
 **NAT** allows multiple devices on a private network to access the internet using a single shared public IP address. It works by translating **private (internal)** IP addresses to a **public (external)** IP address and vice versa as packets enter and leave the network.
 

@@ -75,6 +75,25 @@ std_dev = df['Values'].std()
 iqr = df['Values'].quantile(0.75) - df['Values'].quantile(0.25)
 ```
 
+## Ideas in Probability
+
+### Random Variables
+A **Random Variable** is a mathematical formalization of a quantity or object which depends on random events. It mathematically maps the outcomes of unpredictable processes to specific numerical values so they can be analyzed.
+- **Discrete Random Variables:** Take on distinct, separate, countable values (e.g., rolling a 6-sided dice, counting the number of emails received).
+- **Continuous Random Variables:** Can take absolutely any value within a continuous range (e.g., measuring exact height, exact weight, or exact time).
+
+### Conditional Probability
+Conditional probability is the calculated likelihood of an event or outcome occurring, specifically based on the occurrence of a previous event or outcome. 
+
+**Formula:**
+$$P(B|A) = \frac{ P(A \cap B) }{ P(A) }$$
+*(Read as: The probability of $B$ given that $A$ has definitively occurred).*
+
+> [!NOTE] Independence
+> If two events are strictly independent, the occurrence of $A$ does not change the probability of $B$. Therefore, their intersection is just their product:
+> $$P(A \cap B) = P(A) \times P(B)$$
+> Which proves that if independent, $P(B|A)$ simply equals $P(B)$.
+
 ## Probability Distributions
 A **Probability Distribution** is a mathematical function that provides the probabilities of occurrence of different possible outcomes in an experiment.
 

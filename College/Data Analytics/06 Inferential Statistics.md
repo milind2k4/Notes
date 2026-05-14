@@ -90,6 +90,40 @@ else:
     print("Fail to Reject Null Hypothesis (No Significant Difference)")
 ```
 
+#### Example: The Z-Test
+A university claims the historical average student studies **$\mu = 15$ hours** per week, with a known population standard deviation of **$\sigma = 4$ hours**. 
+
+You test a new study program on a random sample of **$n = 36$ students**. Their new sample mean is **$\bar{x} = 17$ hours**. 
+Test at a **$5\%$ significance level ($\alpha = 0.05$)** whether the new program significantly changed study habits.
+
+**Step 1: State the Hypotheses**
+- **Null Hypothesis ($H_0$):** $\mu = 15$ *(The program had no effect).*
+- **Alternative Hypothesis ($H_A$):** $\mu \neq 15$ *(The program significantly changed study times).*
+
+**Step 2: Determine the Critical Threshold**
+Because $\alpha = 0.05$ for a two-tailed test, our Critical Z-Scores are $\mathbf{\pm 1.96}$.
+*(If our calculated Z-score falls outside of the -1.96 to 1.96 range, we reject the Null).*
+
+**Step 3: Calculate the Z-Statistic**
+The formula for a Z-test compares the difference in means against the Standard Error:
+
+$$ 
+\begin{align*}
+Z &= \frac{\bar{x} - \mu}{\frac{\sigma}{\sqrt{n}}} \\
+Z &= \frac{17 - 15}{\frac{4}{\sqrt{36}}} \\
+Z &= \frac{2}{\frac{4}{6}} \\
+Z &= \frac{2}{0.667} \\
+Z &= \mathbf{3.0}
+\end{align*}
+$$
+
+**Step 4: Conclude**
+Our calculated Z-score ($3.0$) is mathematically greater than our critical threshold ($1.96$). 
+Therefore, it falls into the "Rejection Region".
+
+> [!NOTE] The Final Result
+> **We Reject the Null Hypothesis.** The probability of seeing a sample mean of 17 hours just by random chance is so incredibly small that we confidently conclude the new study program caused a statistically significant change in student behavior.
+
 ## Bayesian Inference (Bayes' Theorem)
 While traditional (Frequentist) statistics like Hypothesis Testing rely solely on current sample data, **Bayesian Statistics** allows us to update our existing beliefs based on *new* evidence.
 

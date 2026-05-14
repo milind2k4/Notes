@@ -5,14 +5,19 @@ ___
 The DALC is an iterative process used to generate insights from data.
 
 ```mermaid
-graph TD
-    P1[Discovery] --> P2[Collection]
-    P2 --> P3[Prep]
-    P3 --> P4[Model Plan]
-    P4 --> P5[Model Build]
-    P5 --> P6[Communicate]
-    P6 --> P7[Operationalize]
-    P5 -.->|Iterate| P4
+graph LR
+    P1(((1\. Discovery))) --> P2(((2\. Collection)))
+    P2 --> P3(((3\. Preparation)))
+    P3 --> P4(((4\. Model Planning)))
+    P4 --> P5(((5\. Model Building)))
+    P5 --> P6(((6\. Communicate)))
+    P6 --> P7(((7\. Operationalize)))
+    
+    %% Circular iteration loops
+    P5 -.->|Refine Model| P4
+    P7 -.->|New Business Goal| P1
+    
+    classDef default fill:#2b2b2b,stroke:#66bb6a,stroke-width:2px,color:#fff;
 ```
 
 ## Phase 1: Discovery

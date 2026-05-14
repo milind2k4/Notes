@@ -53,6 +53,47 @@ Where:
 > - **Dependent Variable ($y$):** Price (e.g., $300,000).
 > - **Goal:** Fit a line through historical data of Size vs. Price so we can predict the price of a new house given its size.
 
+#### Example: Least Squares Line of Best Fit
+You are given a dataset of 4 students, showing hours studied ($X$) and test score ($Y$). Find the Linear Regression equation $\hat{y} = b_0 + b_1x$.
+
+**The Formulas:**
+$$ b_1 = \frac{\sum (x - \bar{x})(y - \bar{y})}{\sum (x - \bar{x})^2} $$
+$$ b_0 = \bar{y} - b_1\bar{x} $$
+
+**Step 1: Calculate the Means**
+- $\bar{X} = (2 + 4 + 6 + 8) / 4 = \mathbf{5}$
+- $\bar{Y} = (60 + 70 + 80 + 90) / 4 = \mathbf{75}$
+
+**Step 2: Build the Calculation Table**
+
+| $X$ | $Y$ | $(x - \bar{x})$ | $(y - \bar{y})$ | $(x - \bar{x})(y - \bar{y})$ | $(x - \bar{x})^2$ |
+|---|---|---|---|---|---|
+| 2 | 60 | $2 - 5 = -3$ | $60 - 75 = -15$ | $(-3)(-15) = 45$ | $(-3)^2 = 9$ |
+| 4 | 70 | $4 - 5 = -1$ | $70 - 75 = -5$ | $(-1)(-5) = 5$ | $(-1)^2 = 1$ |
+| 6 | 80 | $6 - 5 = 1$ | $80 - 75 = 5$ | $(1)(5) = 5$ | $1^2 = 1$ |
+| 8 | 90 | $8 - 5 = 3$ | $90 - 75 = 15$ | $(3)(15) = 45$ | $3^2 = 9$ |
+| **Sum** | | | | **$\sum = 100$** | **$\sum = 20$** |
+
+**Step 3: Calculate Slope ($b_1$) and Intercept ($b_0$)**
+
+$$ b_1 = \frac{100}{20} = \mathbf{5} $$
+*(For every extra hour studied, the score increases by 5 points).*
+
+$$ b_0 = 75 - (5 \times 5) = 75 - 25 = \mathbf{50} $$
+*(A student who studies 0 hours is predicted to score a 50).*
+
+> [!NOTE] The Final Equation
+> The Line of Best Fit is: **$\hat{y} = 50 + 5x$**
+
+```mermaid
+%%{init: { 'xyChart': { 'width': 600, 'height': 400 } } }%%
+xychart-beta
+    title "Least Squares: Hours Studied vs Score"
+    x-axis "Hours Studied (x)" [2, 4, 6, 8]
+    y-axis "Test Score (y)" 50 --> 100
+    line [60, 70, 80, 90]
+```
+
 ## Multiple Linear Regression
 
 When there are **multiple** independent variables, the equation expands. This allows us to predict a target variable based on several factors simultaneously.
